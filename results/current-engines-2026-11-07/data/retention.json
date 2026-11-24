@@ -1,0 +1,41 @@
+[
+  {
+    "index": 13,
+    "inputs": {
+      "Period": 13,
+      "Length": 45,
+      "Threshold": 3.24
+    },
+    "retainedTrades": 4500,
+    "firstRetainedTradeIndex": 542,
+    "wholeRunClosedTrades": 5042,
+    "expectedClosedTrades": 5042,
+    "barCloseEquityMatches": true
+  },
+  {
+    "index": 25,
+    "inputs": {
+      "Period": 14,
+      "Length": 64,
+      "Threshold": 0.49
+    },
+    "retainedTrades": 4499,
+    "firstRetainedTradeIndex": 182,
+    "wholeRunClosedTrades": 4681,
+    "expectedClosedTrades": 4681,
+    "barCloseEquityMatches": true
+  },
+  {
+    "index": 27,
+    "inputs": {
+      "Period": 5,
+      "Length": 67,
+      "Threshold": -2.53
+    },
+    "retainedTrades": 4499,
+    "firstRetainedTradeIndex": 8608,
+    "wholeRunClosedTrades": 13107,
+    "expectedClosedTrades": 13107,
+    "barCloseEquityMatches": true
+  }
+]

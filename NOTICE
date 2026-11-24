@@ -1,0 +1,8 @@
+PineWASM Benchmarks
+Copyright (C) 2026 AI Edge LLC. First-party fixtures and harness: AGPL-3.0-only.
+
+The fixture generator, reference models and adapters in this repository are first-party
+code under AGPL-3.0-only. Engines are fetched from their own upstream distributions as
+described in the run instructions.
+
+TradingView® and Pine Script® are trademarks of TradingView, Inc. PineWASM and these benchmarks are independent AI Edge LLC projects and are not affiliated with, authorized by, sponsored by, or endorsed by TradingView, Inc.

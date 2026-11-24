@@ -1,0 +1,172 @@
+{
+  "profileName": "long",
+  "profile": {
+    "bars": 65536,
+    "trials": 30,
+    "repetitions": 5,
+    "workloads": [
+      "periodic",
+      "window"
+    ]
+  },
+  "seed": 934,
+  "admitted": [
+    "window"
+  ],
+  "speedup": {
+    "pinets": 14.546470891918517,
+    "pineforge": 4.4692444918755925,
+    "pynecore": 17.070000138119944
+  },
+  "rows": {
+    "periodic": {
+      "eligible": false,
+      "totalsMs": {
+        "aot-main": [
+          751.8307079999997,
+          729.2037930000001,
+          740.1917890000001,
+          892.345044,
+          837.42762
+        ],
+        "pinets": [
+          14588.411874000003,
+          11976.338292,
+          12664.320374,
+          14913.869459999998,
+          15617.003499999997
+        ],
+        "pineforge": [
+          13260.666082,
+          12156.883126,
+          12953.599833999997,
+          13076.891874,
+          13170.472333000002
+        ],
+        "pynecore": [
+          15630.180500999999,
+          15279.384707,
+          15873.959957,
+          15915.626377999999,
+          16030.515041999999
+        ]
+      },
+      "medianMs": {
+        "aot-main": 751.8307079999997,
+        "pinets": 14588.411874000003,
+        "pineforge": 13076.891874,
+        "pynecore": 15873.959957
+      },
+      "pairedSpeedup": null
+    },
+    "window": {
+      "eligible": true,
+      "totalsMs": {
+        "aot-main": [
+          981.1037070000006,
+          963.55425,
+          1040.1117069999996,
+          993.2151299999998,
+          1115.1364619999995
+        ],
+        "pinets": [
+          12908.352167,
+          13470.070458999999,
+          18227.515209000005,
+          17152.155708999995,
+          16221.300084999995
+        ],
+        "pineforge": [
+          4261.429831000001,
+          4269.66675,
+          5475.691752,
+          4438.921249,
+          5244.204749
+        ],
+        "pynecore": [
+          16747.440414,
+          17504.063876,
+          17326.617,
+          16142.787664999998,
+          24083.067917
+        ]
+      },
+      "medianMs": {
+        "aot-main": 993.2151299999998,
+        "pinets": 16221.300084999995,
+        "pineforge": 4438.921249,
+        "pynecore": 17326.617
+      },
+      "pairedSpeedup": {
+        "pinets": 14.54647089191852,
+        "pineforge": 4.4692444918755925,
+        "pynecore": 17.070000138119948
+      }
+    }
+  },
+  "failures": [
+    {
+      "engine": "aot-main",
+      "workload": "periodic",
+      "repetition": 0,
+      "differences": 3,
+      "error": null,
+      "failedFull": []
+    },
+    {
+      "engine": "aot-main",
+      "workload": "periodic",
+      "repetition": 1,
+      "differences": 3,
+      "error": null,
+      "failedFull": []
+    },
+    {
+      "engine": "aot-main",
+      "workload": "periodic",
+      "repetition": 2,
+      "differences": 3,
+      "error": null,
+      "failedFull": []
+    },
+    {
+      "engine": "aot-main",
+      "workload": "periodic",
+      "repetition": 3,
+      "differences": 3,
+      "error": null,
+      "failedFull": []
+    },
+    {
+      "engine": "aot-main",
+      "workload": "periodic",
+      "repetition": 4,
+      "differences": 3,
+      "error": null,
+      "failedFull": []
+    }
+  ],
+  "metricsChecked": 1200,
+  "recordedOutputsChecked": 16,
+  "compiler": {
+    "compilerVersion": "21.1.0",
+    "ilVersion": 2,
+    "languageVersion": 6,
+    "renderingContractVersion": 1,
+    "tzdataVersion": "2026e",
+    "sourceRevision": "20d6304ebe3faad6d14238eab79c6a03f42f7a2e"
+  },
+  "host": {
+    "cpu": "Apple M5 Max",
+    "cores": 18,
+    "os": "25.6.0",
+    "arch": "arm64",
+    "node": "v22.22.3"
+  },
+  "startedAt": "2026-11-08T04:35:21.822Z",
+  "finishedAt": "2026-11-08T04:42:58.362Z",
+  "load1": [
+    10.72119140625,
+    26.0009765625
+  ]
+}

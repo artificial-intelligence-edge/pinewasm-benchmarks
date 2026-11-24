@@ -1,0 +1,236 @@
+{
+  "bars": 4096,
+  "trials": 500,
+  "repetitions": 5,
+  "engine": "0.13.1",
+  "compiler": {
+    "compilerVersion": "21.1.0",
+    "ilVersion": 2,
+    "languageVersion": 6,
+    "renderingContractVersion": 1,
+    "tzdataVersion": "2026e",
+    "sourceRevision": "20d6304ebe3faad6d14238eab79c6a03f42f7a2e"
+  },
+  "host": {
+    "cpus": "Apple M5 Max",
+    "logical": 18,
+    "node": "v22.22.3",
+    "loadavgStart": [
+      31.34716796875,
+      24.45458984375,
+      20.31640625
+    ],
+    "loadavgEnd": [
+      17.64990234375,
+      21.71533203125,
+      20.5810546875
+    ]
+  },
+  "completedAt": "2026-11-08T05:13:39.423Z",
+  "metricsChecked": 20000,
+  "endpointChecks": 80,
+  "endToEndSpeedup": 13.38049393759731,
+  "workerSpeedup": 14.744150927002492,
+  "rows": {
+    "periodic": {
+      "endToEnd": 16.256974414633074,
+      "worker": 18.299082660229303,
+      "totals": {
+        "aot-main": [
+          {
+            "endToEndMs": 930.838667,
+            "workerMs": 799.8029710000021
+          },
+          {
+            "endToEndMs": 830.8678329999966,
+            "workerMs": 733.6887829999993
+          },
+          {
+            "endToEndMs": 949.5884580000129,
+            "workerMs": 825.129125
+          },
+          {
+            "endToEndMs": 824.315666999988,
+            "workerMs": 726.6784840000015
+          },
+          {
+            "endToEndMs": 842.8762909999932,
+            "workerMs": 745.9099950000011
+          }
+        ],
+        "pinets": [
+          {
+            "endToEndMs": 13769.589542,
+            "workerMs": 13569.46628999998
+          },
+          {
+            "endToEndMs": 13604.479500000001,
+            "workerMs": 13425.831687000025
+          },
+          {
+            "endToEndMs": 15413.438750000001,
+            "workerMs": 15238.30424699998
+          },
+          {
+            "endToEndMs": 13400.878708000004,
+            "workerMs": 13229.257702999988
+          },
+          {
+            "endToEndMs": 13890.111833999981,
+            "workerMs": 13708.179740999994
+          }
+        ]
+      }
+    },
+    "window": {
+      "endToEnd": 13.796642557883988,
+      "worker": 15.32605344299938,
+      "totals": {
+        "aot-main": [
+          {
+            "endToEndMs": 1081.9215409999997,
+            "workerMs": 963.7185729999985
+          },
+          {
+            "endToEndMs": 1045.4548329999961,
+            "workerMs": 949.5459550000008
+          },
+          {
+            "endToEndMs": 1214.97233400002,
+            "workerMs": 1085.4477519999994
+          },
+          {
+            "endToEndMs": 1272.8419590000121,
+            "workerMs": 1133.2583259999979
+          },
+          {
+            "endToEndMs": 1018.7541670000064,
+            "workerMs": 927.3100839999996
+          }
+        ],
+        "pinets": [
+          {
+            "endToEndMs": 15129.2815,
+            "workerMs": 14933.38324100001
+          },
+          {
+            "endToEndMs": 17586.002125,
+            "workerMs": 17229.295951999993
+          },
+          {
+            "endToEndMs": 14574.48654100002,
+            "workerMs": 14391.594804000011
+          },
+          {
+            "endToEndMs": 17560.945540999994,
+            "workerMs": 17368.37766899998
+          },
+          {
+            "endToEndMs": 14018.788832999999,
+            "workerMs": 13838.199795999988
+          }
+        ]
+      }
+    },
+    "weighted": {
+      "endToEnd": 11.933401250769778,
+      "worker": 12.79877358060638,
+      "totals": {
+        "aot-main": [
+          {
+            "endToEndMs": 1286.876917000005,
+            "workerMs": 1175.6111690000025
+          },
+          {
+            "endToEndMs": 1580.0582500000019,
+            "workerMs": 1389.7849039999994
+          },
+          {
+            "endToEndMs": 1285.981625000015,
+            "workerMs": 1172.6024519999999
+          },
+          {
+            "endToEndMs": 1443.7014999999956,
+            "workerMs": 1326.0444109999992
+          },
+          {
+            "endToEndMs": 1228.48766600003,
+            "workerMs": 1130.819202
+          }
+        ],
+        "pinets": [
+          {
+            "endToEndMs": 19805.187333,
+            "workerMs": 19492.528116000005
+          },
+          {
+            "endToEndMs": 16953.523833,
+            "workerMs": 16752.629890000007
+          },
+          {
+            "endToEndMs": 15485.887084000016,
+            "workerMs": 15310.242947000032
+          },
+          {
+            "endToEndMs": 16458.020667000004,
+            "workerMs": 16261.700995000012
+          },
+          {
+            "endToEndMs": 14660.036250000005,
+            "workerMs": 14473.098926999988
+          }
+        ]
+      }
+    },
+    "momentum": {
+      "endToEnd": 11.975983906459378,
+      "worker": 13.1659154159627,
+      "totals": {
+        "aot-main": [
+          {
+            "endToEndMs": 1262.2573330000014,
+            "workerMs": 1158.5323829999995
+          },
+          {
+            "endToEndMs": 1573.1777500000026,
+            "workerMs": 1414.4687800000013
+          },
+          {
+            "endToEndMs": 1261.8772500000196,
+            "workerMs": 1156.8126340000003
+          },
+          {
+            "endToEndMs": 1245.0790419999976,
+            "workerMs": 1149.0005520000004
+          },
+          {
+            "endToEndMs": 1293.9145000000135,
+            "workerMs": 1190.2493030000014
+          }
+        ],
+        "pinets": [
+          {
+            "endToEndMs": 16027.806666999997,
+            "workerMs": 15827.060280000025
+          },
+          {
+            "endToEndMs": 18840.351416000005,
+            "workerMs": 18622.77631599997
+          },
+          {
+            "endToEndMs": 15566.044750000001,
+            "workerMs": 15383.15921299999
+          },
+          {
+            "endToEndMs": 14863.174083999998,
+            "workerMs": 14684.283340000004
+          },
+          {
+            "endToEndMs": 14757.586667000025,
+            "workerMs": 14575.195174999993
+          }
+        ]
+      }
+    }
+  }
+}
